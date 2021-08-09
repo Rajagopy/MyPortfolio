@@ -91,6 +91,10 @@ hr {
   color: var(--true-gray);
 }
 
+.hero .hero-heading .text-hero{
+  color:var(--primary-color);
+}
+
 .section {
     padding:1rem;
 }
@@ -120,4 +124,22 @@ hr {
 .footer ul{
     padding-inline-start: 0px;
 
+}
+
+.test-column{
+  
+  height:fit-content;
+  flex: 50%;
+  padding: 5px;
+}
+
+.test-row{
+  display:flex
+}
+
+.img {
+  float:none;
+  width:  300px;
+  height: 300px;
+  background-size: cover;
 }
