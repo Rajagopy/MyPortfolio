@@ -1,12 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@400;600&display=swap');
 
 :root {
-  --primary-color: #536dfe;
+  --primary-color: #7C3AED;
+  --secondary-color: #A78BFA;
   --true-gray: #a3a3a3;
-  --offwhite: #E2E8F0;
+  --offwhite: #EDE9FE;
 }
 body {
-  font-family: "Hahmlet", serif;
+  font-family: 'Georama', sans-serif;
   margin: 0px;
 
 }
@@ -33,12 +34,17 @@ hr {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: white;
+  /* padding:0.5rem; */
+}
+
+.above-link{
+  padding-bottom: 1rem;
 }
 
 .link-sec {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   border-radius: 0.5rem;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .list-non-bullet {
@@ -59,11 +65,13 @@ hr {
 
 .navigation .nav-brand {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  text-align: left;
+  padding:1rem;
 }
 
 .navigation .nav-pills {
-  text-align: right;
+  text-align: center;
 }
 
 .navigation .link-active {
